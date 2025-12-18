@@ -134,6 +134,7 @@
     <ClCompile Include="17.cpp" />
     <ClCompile Include="16.cpp" />
     <ClCompile Include="18.cpp" />
+    <ClCompile Include="19.cpp" />
     <ClCompile Include="2.c" />
     <ClCompile Include="2.cpp" />
     <ClCompile Include="3.c" />
