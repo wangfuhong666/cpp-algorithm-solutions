@@ -1,7 +1,7 @@
 //#define _CRT_SECURE_NO_WARNINGS
 //#include<iostream>
 //#include<string>
-#include<algorithm>
+//#include<algorithm>
 //using namespace std;
 //
 //struct choose

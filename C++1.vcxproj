@@ -140,6 +140,12 @@
     <ClCompile Include="20.cpp" />
     <ClCompile Include="21.cpp" />
     <ClCompile Include="22.cpp" />
+    <ClCompile Include="23.cpp" />
+    <ClCompile Include="24.cpp" />
+    <ClCompile Include="25.cpp" />
+    <ClCompile Include="26（排序）.cpp" />
+    <ClCompile Include="27.cpp" />
+    <ClCompile Include="28.cpp" />
     <ClCompile Include="3.c" />
     <ClCompile Include="3.cpp" />
     <ClCompile Include="4.cpp" />

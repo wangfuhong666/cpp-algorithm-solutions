@@ -70,24 +70,7 @@
 //using namespace std;
 //int main()
 //{
-//
-//		auto B = clock();
-//		unsigned long long n, m, res = 0;
-//		cin >> n >> m;
-//		for (int i = 60; i >= 0; i++)
 //		{
-//			unsigned long long tem = 1ull << i;
-//			if (n * tem <= m)
-//			{
-//				res |= tem;
-//				m -= n * tem;
-//			}
 //		}
-//		cout << res;
-//		auto S = clock();
-//		cout << "×ÜÓÃÊ±: " << S - B << "ms" << endl;
-//
-//	
-//
 //	return 0;
 //}

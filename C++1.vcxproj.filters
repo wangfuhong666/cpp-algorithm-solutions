@@ -1,24 +1,43 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- 筛选器分组定义（中文名称+VS原生GUID） -->
   <ItemGroup>
+    <!-- 头文件分组 -->
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp</Extensions>
+    </Filter>
+    <!-- 源文件分组 -->
     <Filter Include="源文件">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="头文件">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
+    <!-- 资源文件分组 -->
     <Filter Include="资源文件">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <!-- 杂项文件分组（按需添加） -->
+    <Filter Include="杂项文件">
+      <UniqueIdentifier>{08E58209-49B8-4f09-8932-49907C27B719}</UniqueIdentifier>
+      <Extensions>txt;ini;log;bat;cmd;xml;json</Extensions>
+    </Filter>
   </ItemGroup>
+  <!-- 绑定项目中的.c/.cpp文件到“源文件”分组（按你项目实际文件列写） -->
   <ItemGroup>
+    <ClCompile Include="1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="3.cpp">
@@ -30,22 +49,10 @@
     <ClCompile Include="5.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="6（判断素数的较高效方法）.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="1.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="7.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="2.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="8.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="3.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="9.cpp">
@@ -66,13 +73,13 @@
     <ClCompile Include="14.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="17.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="15.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="16.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="17.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="18.cpp">
@@ -90,5 +97,44 @@
     <ClCompile Include="22.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="6（判断素数的较高效方法）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="23.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="24.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="25.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="26（排序）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="27.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="28.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <!-- 若有头文件，添加此段绑定到“头文件”分组（示例） -->
+  <ItemGroup>
+    <!-- <ClInclude Include="xxx.h">
+      <Filter>头文件</Filter>
+    </ClInclude> -->
+  </ItemGroup>
+  <!-- 若有资源文件，添加此段绑定到“资源文件”分组（示例） -->
+  <ItemGroup>
+    <!-- <ResourceCompile Include="xxx.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile> -->
+  </ItemGroup>
+  <!-- 若有杂项文件，添加此段绑定到“杂项文件”分组（示例） -->
+  <ItemGroup>
+    <!-- <None Include="xxx.txt">
+      <Filter>杂项文件</Filter>
+    </None> -->
   </ItemGroup>
 </Project>
