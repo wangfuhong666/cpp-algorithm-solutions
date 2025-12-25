@@ -115,7 +115,19 @@
     <ClCompile Include="27.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="28.cpp">
+    <ClCompile Include="28 模拟（洛谷 P1067 [NOIP 2009 普及组] 多项式输出 ）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="29 模拟 （洛谷 P5731 【深基5.习6】蛇形方阵）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="30 模拟（洛谷 P1098 [NOIP 2007 提高组] 字符串的展开）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="31%28高精度算法%29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="32 模拟（牛客 给定一个正整数 （位数可达 ），请将其转写为科学计数法形式，形如： 具体而言，有如下要求： 为 之间的整数； 为对 的第二位数字进行四舍五入后的小数部分（保留一位小数）； 为整数指数； 输出格式严格为 ````，无多余空格。）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
