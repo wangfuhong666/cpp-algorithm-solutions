@@ -9,7 +9,7 @@
 //#include <iomanip>
 //#include<algorithm>
 //using namespace std;
-////自己写的算法（可AC）
+//自己写的算法（可AC）
 //void start(vector<vector<int>>& arr, int n, int x, int y)
 //{
 //	static int i = 1;
@@ -29,7 +29,7 @@
 //	}
 //	for (int j = arr.size() - y - 1; j >= x; j--)
 //	{
-//		arr[arr.size() - x - 1][j] = i;
+//		arr[arr.size() - x -1][j] = i;
 //		if (i == n * n) return;
 //		i++;
 //	}
@@ -41,7 +41,7 @@
 //	}
 //	start(arr, n, x + 1, y + 1);
 //}
-////用方向向量写的算法
+//用方向向量写的算法
 //void direction(vector<vector<int>>& arr,int n)
 //{
 //	vector <int>dx = { 1,0,-1,0 };

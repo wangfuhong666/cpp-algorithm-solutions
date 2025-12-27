@@ -130,6 +130,33 @@
     <ClCompile Include="32 模拟（牛客 给定一个正整数 （位数可达 ），请将其转写为科学计数法形式，形如： 具体而言，有如下要求： 为 之间的整数； 为对 的第二位数字进行四舍五入后的小数部分（保留一位小数）； 为整数指数； 输出格式严格为 ````，无多余空格。）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="33 枚举（洛谷 P1003 [NOIP 2011 提高组] 铺地毯）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="34 二进制枚举（力扣 78. 子集）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="35 二进制枚举 %28蓝桥云课 第 33 场 蓝桥·算法入门赛·百校联赛 3. 蓝小骑【算法赛】%29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="36 枚举（洛谷 P2010 [NOIP 2016 普及组] 回文日期）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="37 递推dp（洛谷 P2327 [SCOI2005] 扫雷）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="38 二进制枚举 （洛谷 P10449 费解的开关）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4 %28蛇形方阵%29.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="39  递归做法 （智创未来杯 2025 武汉地区联合新生赛 A）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="40 二进制枚举 （洛谷（UVA）UVA11464 Even Parity）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <!-- 若有头文件，添加此段绑定到“头文件”分组（示例） -->
   <ItemGroup>
