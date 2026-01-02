@@ -127,7 +127,7 @@
     <ClCompile Include="31%28高精度算法%29.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="32 模拟（牛客 给定一个正整数 （位数可达 ），请将其转写为科学计数法形式，形如： 具体而言，有如下要求： 为 之间的整数； 为对 的第二位数字进行四舍五入后的小数部分（保留一位小数）； 为整数指数； 输出格式严格为 ````，无多余空格。）.cpp">
+    <ClCompile Include="32 模拟（牛客 BGN12 特殊的科学计数法）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="33 枚举（洛谷 P1003 [NOIP 2011 提高组] 铺地毯）.cpp">
@@ -145,7 +145,7 @@
     <ClCompile Include="37 递推dp（洛谷 P2327 [SCOI2005] 扫雷）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="38 二进制枚举 （洛谷 P10449 费解的开关）.cpp">
+    <ClCompile Include="38 二进制枚举 （二维数组）（洛谷 P10449 费解的开关）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="4 %28蛇形方阵%29.c">
@@ -155,6 +155,69 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="40 二进制枚举 （洛谷（UVA）UVA11464 Even Parity）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="41 二分（牛客 牛客周赛 Round 124 C 夜揽星河入梦）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="42 前缀和 （牛客 【模板】前缀和）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="43  方向向量做法 （智创未来杯 2025 武汉地区联合新生赛 B）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="44 二进制枚举 （二进制的位运算）（洛谷 P10449 费解的开关）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="45 位运算（统计二进制中有多少个1的两种方法）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="46 前缀和 （洛谷 P1115 最大子段和）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="47 前缀和（优化版）（洛谷 P1115 最大子段和）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="48 一维前缀和及扩展（即库函数写法）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="49 二维前缀和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="50 前缀和（牛客【模板】二维前缀和）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="51.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="52 优化的做法（比方向向量的做法效率更高） （智创未来杯 2025 武汉地区联合新生赛 B）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="53 差分（牛客【模板】差分）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="54 探寻前缀和与差分之间的关系.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="55 差分（洛谷 P3406 海底高铁）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="56 差分 （优化版）（洛谷 P3406 海底高铁）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="57 探寻多次差分 .cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="58 实现二维差分.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="59 二维差分 （牛客 【模板】二维差分）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="60.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
