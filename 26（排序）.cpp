@@ -134,26 +134,26 @@
 ////堆排序（堆这种数据结构属于二叉树）
 //
 ////快速排序
-////int get_rand(vector<int>&arr,int left, int right) 
-////{
-////
-////	return arr[rand() % (right - left + 1) + left];
-////}
-////void sort_4(vector<int>&arr,int left, int right)
-////{
-////	if (left >= right)return;
-////	int p = get_rand(arr,left, right);
-////	int l = left - 1, i = left, r = right + 1;
-////	while (i < r)
-////	{
-////		if (arr[i] < p) swap(arr[++l], arr[i++]);
-////		else if (arr[i] == p) i++;
-////		else swap(arr[--r], arr[i]);
-////	
-////	}
-////	sort_4(arr,left, l);
-////	sort_4(arr,r, right);
-////}
+//int get_rand(vector<int>&arr,int left, int right) 
+//{
+//
+//	return arr[rand() % (right - left + 1) + left];
+//}
+//void sort_4(vector<int>&arr,int left, int right)
+//{
+//	if (left >= right)return;
+//	int p = get_rand(arr,left, right);
+//	int l = left - 1, i = left, r = right + 1;
+//	while (i < r)
+//	{
+//		if (arr[i] < p) swap(arr[++l], arr[i++]);
+//		else if (arr[i] == p) i++;
+//		else swap(arr[--r], arr[i]);
+//	
+//	}
+//	sort_4(arr,left, l);
+//	sort_4(arr,r, right);
+//}
 ////归并排序
 //void sort_5(vector<int>& arr, int left, int right)
 //{
@@ -177,20 +177,20 @@
 //		}
 //
 //	}
-	//while(cur1 <= mid)
-	//{
-	//	tmp[i] = arr[cur1];
-	//	i++; cur1++;
-	//}
-	//while(cur2 <= right)
-	//{
-	//	tmp[i] = arr[cur2];
-	//	i++; cur2++;
-	//}
-	//for (int j = left; j <= right; j++)
-	//{
-	//	arr[j] = tmp[j];
-	//}
+//	while(cur1 <= mid)
+//	{
+//		tmp[i] = arr[cur1];
+//		i++; cur1++;
+//	}
+//	while(cur2 <= right)
+//	{
+//		tmp[i] = arr[cur2];
+//		i++; cur2++;
+//	}
+//	for (int j = left; j <= right; j++)
+//	{
+//		arr[j] = tmp[j];
+//	}
 //}
 //int main()
 //{

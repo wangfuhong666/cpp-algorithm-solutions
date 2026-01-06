@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -182,9 +182,19 @@
     <ClCompile Include="56 差分 （优化版）（洛谷 P3406 海底高铁）.cpp" />
     <ClCompile Include="57 探寻多次差分 .cpp" />
     <ClCompile Include="59 二维差分 （牛客 【模板】二维差分）.cpp" />
-    <ClCompile Include="60.cpp" />
+    <ClCompile Include="60 二维差分 （洛谷 P3397 地毯）.cpp" />
+    <ClCompile Include="61 双指针（滑动窗口） （洛谷（UVA）UVA11572 唯一的雪花 Unique Snowflakes）.cpp" />
+    <ClCompile Include="62 双指针（滑动窗口） （洛谷 P1638 逛画展）.cpp" />
+    <ClCompile Include="63 双指针（滑动窗口） （牛客 字符串）.cpp" />
+    <ClCompile Include="64 双指针（滑动窗口） （牛客 丢手绢）.cpp" />
+    <ClCompile Include="65 双指针（滑动窗口）（力扣（第 173 场双周赛）核心代码模式 （Q2. 不同元素和至少为 K 的最短子数组长度））.cpp" />
+    <ClCompile Include="66 二分算法 （力扣 核心代码模式 34. 在排序数组中查找元素的第一个和最后一个位置）.cpp" />
+    <ClCompile Include="67 双指针（滑动窗口） （牛客 BGN6 小红的字符串修改）.cpp" />
+    <ClCompile Include="68 模拟 （牛客 BGN9 元素方碑）.cpp" />
+    <ClCompile Include="69 枚举 （牛客 BGN10 九倍平方数）.cpp" />
     <ClCompile Include="6（判断素数的较高效方法）.cpp" />
     <ClCompile Include="7.cpp" />
+    <ClCompile Include="70 练习STL容器里面的二分函数.cpp" />
     <ClCompile Include="8.cpp" />
     <ClCompile Include="9.cpp" />
     <ClCompile Include="58 实现二维差分.cpp" />
