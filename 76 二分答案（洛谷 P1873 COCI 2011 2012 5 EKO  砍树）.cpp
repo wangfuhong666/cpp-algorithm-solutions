@@ -2,34 +2,27 @@
 //#include<iostream>
 //#include<vector>
 //#include<algorithm>
+////#include<bits/stdc++.h>
 //using namespace std;
-//long long calc(vector<int>& arr, long long a)
+//long long test(vector<int>& arr, int n)
 //{
 //	long long count = 0LL;
-//	for (auto num : arr)count += num / a;
+//	for (auto num : arr)num - n >= 0 ? count += num - n : count += 0;
 //	return count;
 //}
-//
 //int main()
-//
 //{
-//	int n, k;
-//	cin >> n >> k;
+//	int n, m;
+//	cin >> n >> m;
 //	vector<int>arr(n, 0);
 //	for (auto& num : arr)cin >> num;
-//	long long  l = 1, r = ranges::max(arr), mid = -1;
+//	long long l = 0, r = ranges::max(arr), mid = -1;
 //	while (l < r)
 //	{
 //		mid = (l + r + 1) / 2;
-//		if (calc(arr, mid) >= k)l = mid;
+//		if (test(arr, mid) >= m)l = mid;
 //		else r = mid - 1;
-//		
 //	}
-//	if (calc(arr, l) < k)cout << 0;
-//	else cout << l;
+//	cout << l;
 //	return 0;
 //}
-//
-//
-//
-//P1873 COCI 2011 2012 5 EKO  ¿³Ê÷

@@ -201,7 +201,7 @@
     <ClCompile Include="73 二分算法 （洛谷 P1102 A-B 数对）.cpp" />
     <ClCompile Include="74 二分算法 （洛谷 P1678 烦恼的高考志愿）.cpp" />
     <ClCompile Include="75 二分答案 （洛谷 P2440 木材加工）.cpp" />
-    <ClCompile Include="76.cpp" />
+    <ClCompile Include="76 二分答案（洛谷 P1873 COCI 2011 2012 5 EKO  砍树）.cpp" />
     <ClCompile Include="8.cpp" />
     <ClCompile Include="9.cpp" />
     <ClCompile Include="58 实现二维差分.cpp" />
