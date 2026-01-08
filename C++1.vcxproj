@@ -102,6 +102,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -195,6 +196,12 @@
     <ClCompile Include="6（判断素数的较高效方法）.cpp" />
     <ClCompile Include="7.cpp" />
     <ClCompile Include="70 练习STL容器里面的二分函数.cpp" />
+    <ClCompile Include="71 二分算法（手动实现） （牛客 牛可乐和魔法封印）.cpp" />
+    <ClCompile Include="72 二分算法（使用二分函数） （牛客 牛可乐和魔法封印）.cpp" />
+    <ClCompile Include="73 二分算法 （洛谷 P1102 A-B 数对）.cpp" />
+    <ClCompile Include="74 二分算法 （洛谷 P1678 烦恼的高考志愿）.cpp" />
+    <ClCompile Include="75 二分答案 （洛谷 P2440 木材加工）.cpp" />
+    <ClCompile Include="76.cpp" />
     <ClCompile Include="8.cpp" />
     <ClCompile Include="9.cpp" />
     <ClCompile Include="58 实现二维差分.cpp" />
