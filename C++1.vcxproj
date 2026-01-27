@@ -127,6 +127,9 @@
     <ClCompile Include="1.c" />
     <ClCompile Include="1.cpp" />
     <ClCompile Include="10.cpp" />
+    <ClCompile Include="92 （模拟· 【17届蓝桥杯寒假刷题营】第1期DAY1 1. 任意年月日历输出）.cpp" />
+    <ClCompile Include="93（贪心【17届蓝桥杯寒假刷题营】第1期DAY1 3. 长度统计）.cpp" />
+    <ClCompile Include="94 dp %28蓝桥云课 第 34 场 蓝桥·算法挑战赛·百校联赛 3. 平台跳跃【算法赛】%29.cpp" />
     <ClCompile Include="11.cpp" />
     <ClCompile Include="12.cpp" />
     <ClCompile Include="13.cpp" />
@@ -202,9 +205,27 @@
     <ClCompile Include="74 二分算法 （洛谷 P1678 烦恼的高考志愿）.cpp" />
     <ClCompile Include="75 二分答案 （洛谷 P2440 木材加工）.cpp" />
     <ClCompile Include="76 二分答案（洛谷 P1873 COCI 2011 2012 5 EKO  砍树）.cpp" />
+    <ClCompile Include="77 二分答案（洛谷 P2678 [NOIP 2015 提高组] 跳石头）.cpp" />
+    <ClCompile Include="78 贪心（2025年武汉轻工大学算法校赛 C 申桑的小酒吧）.cpp" />
+    <ClCompile Include="79 模拟（这道题会超时） （智创未来杯 2025 武汉地区联合新生赛 C）.cpp" />
     <ClCompile Include="8.cpp" />
+    <ClCompile Include="80 前缀和+二分（二分函数有普通版与优化后的版本）（优化后的做法） （智创未来杯 2025 武汉地区联合新生赛 C）.cpp" />
+    <ClCompile Include="81 贪心（洛谷 P10452 货仓选址）.cpp" />
+    <ClCompile Include="82 贪心 （洛谷 P1115 最大子段和）.cpp" />
+    <ClCompile Include="83 双指针（滑动窗口） （洛谷 P1115 最大子段和）.cpp" />
+    <ClCompile Include="84 模拟 （牛客 BGN19 小红的回文串）.cpp" />
+    <ClCompile Include="85 随机数小练习.cpp" />
+    <ClCompile Include="86 模拟 （蓝桥云课 第 34 场 蓝桥·算法入门赛·百校联赛 6. 刮刮乐卡【算法赛】）.cpp" />
+    <ClCompile Include="87二进制输出.cpp" />
+    <ClCompile Include="88 贪心 （洛谷 P1094 [NOIP 2007 普及组] 纪念品分组）.cpp" />
+    <ClCompile Include="89 贪心 （洛谷 P1056 [NOIP 2008 普及组] 排座椅）.cpp" />
     <ClCompile Include="9.cpp" />
     <ClCompile Include="58 实现二维差分.cpp" />
+    <ClCompile Include="90 纯二进制枚举 （超时）（牛客 矩阵消除游戏） .cpp" />
+    <ClCompile Include="91 二进制枚举+贪心优化 （牛客 矩阵消除游戏）.cpp" />
+    <ClCompile Include="95A Codeforces Round 1076 %28Div. 3%29 .cpp" />
+    <ClCompile Include="96B Codeforces Round 1076 %28Div. 3%29.cpp" />
+    <ClCompile Include="97.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
