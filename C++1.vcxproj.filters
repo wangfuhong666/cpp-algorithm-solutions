@@ -148,7 +148,7 @@
     <ClCompile Include="38 二进制枚举 （二维数组）（洛谷 P10449 费解的开关）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="4 %28蛇形方阵%29.c">
+    <ClCompile Include="4 %28蛇形方阵%29（gcc编译下的文件）.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="39  递归做法 （智创未来杯 2025 武汉地区联合新生赛 A）.cpp">
@@ -313,10 +313,10 @@
     <ClCompile Include="91 二进制枚举+贪心优化 （牛客 矩阵消除游戏）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="92 （模拟· 【17届蓝桥杯寒假刷题营】第1期DAY1 1. 任意年月日历输出）.cpp">
+    <ClCompile Include="92 模拟（·蓝桥云课 【17届蓝桥杯寒假刷题营】第1期DAY1 1. 任意年月日历输出）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="93（贪心【17届蓝桥杯寒假刷题营】第1期DAY1 3. 长度统计）.cpp">
+    <ClCompile Include="93 贪心（蓝桥云课【17届蓝桥杯寒假刷题营】第1期DAY1 3. 长度统计）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="94 dp %28蓝桥云课 第 34 场 蓝桥·算法挑战赛·百校联赛 3. 平台跳跃【算法赛】%29.cpp">
@@ -328,7 +328,16 @@
     <ClCompile Include="96B Codeforces Round 1076 %28Div. 3%29.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="97.cpp">
+    <ClCompile Include="97 贪心 %28推公式%29（洛谷 P1012 [NOIP 1998 提高组] 拼数）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="98 贪心 %28推公式%29（洛谷 P2878 [USACO07JAN] Protecting the Flowers S）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="99 贪心 （推公式） （洛谷 P1842 [USACO05NOV] 奶牛玩杂技）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="100.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

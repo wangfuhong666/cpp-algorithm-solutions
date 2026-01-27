@@ -124,108 +124,321 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1.c" />
-    <ClCompile Include="1.cpp" />
-    <ClCompile Include="10.cpp" />
-    <ClCompile Include="92 （模拟· 【17届蓝桥杯寒假刷题营】第1期DAY1 1. 任意年月日历输出）.cpp" />
-    <ClCompile Include="93（贪心【17届蓝桥杯寒假刷题营】第1期DAY1 3. 长度统计）.cpp" />
-    <ClCompile Include="94 dp %28蓝桥云课 第 34 场 蓝桥·算法挑战赛·百校联赛 3. 平台跳跃【算法赛】%29.cpp" />
-    <ClCompile Include="11.cpp" />
-    <ClCompile Include="12.cpp" />
-    <ClCompile Include="13.cpp" />
-    <ClCompile Include="14.cpp" />
-    <ClCompile Include="15.cpp" />
-    <ClCompile Include="17.cpp" />
-    <ClCompile Include="16.cpp" />
-    <ClCompile Include="18.cpp" />
-    <ClCompile Include="19.cpp" />
-    <ClCompile Include="2.c" />
-    <ClCompile Include="2.cpp" />
-    <ClCompile Include="20.cpp" />
-    <ClCompile Include="21.cpp" />
-    <ClCompile Include="22.cpp" />
-    <ClCompile Include="23.cpp" />
-    <ClCompile Include="24.cpp" />
-    <ClCompile Include="25.cpp" />
-    <ClCompile Include="26（排序）.cpp" />
-    <ClCompile Include="27.cpp" />
-    <ClCompile Include="28 模拟（洛谷 P1067 [NOIP 2009 普及组] 多项式输出 ）.cpp" />
-    <ClCompile Include="29 模拟 （洛谷 P5731 【深基5.习6】蛇形方阵）.cpp" />
-    <ClCompile Include="3.c" />
-    <ClCompile Include="3.cpp" />
-    <ClCompile Include="30 模拟（洛谷 P1098 [NOIP 2007 提高组] 字符串的展开）.cpp" />
-    <ClCompile Include="32 模拟（牛客 BGN12 特殊的科学计数法）.cpp" />
-    <ClCompile Include="31%28高精度算法%29.cpp" />
-    <ClCompile Include="33 枚举（洛谷 P1003 [NOIP 2011 提高组] 铺地毯）.cpp" />
-    <ClCompile Include="34 二进制枚举（力扣 78. 子集）.cpp" />
-    <ClCompile Include="35 二进制枚举 %28蓝桥云课 第 33 场 蓝桥·算法入门赛·百校联赛 3. 蓝小骑【算法赛】%29.cpp" />
-    <ClCompile Include="36 枚举（洛谷 P2010 [NOIP 2016 普及组] 回文日期）.cpp" />
-    <ClCompile Include="37 递推dp（洛谷 P2327 [SCOI2005] 扫雷）.cpp" />
-    <ClCompile Include="38 二进制枚举 （二维数组）（洛谷 P10449 费解的开关）.cpp" />
-    <ClCompile Include="39  递归做法 （智创未来杯 2025 武汉地区联合新生赛 A）.cpp" />
-    <ClCompile Include="4 %28蛇形方阵%29.c" />
-    <ClCompile Include="4.cpp" />
-    <ClCompile Include="40 二进制枚举 （洛谷（UVA）UVA11464 Even Parity）.cpp" />
-    <ClCompile Include="41 二分（牛客 牛客周赛 Round 124 C 夜揽星河入梦）.cpp" />
-    <ClCompile Include="42 前缀和 （牛客 【模板】前缀和）.cpp" />
-    <ClCompile Include="43  方向向量做法 （智创未来杯 2025 武汉地区联合新生赛 B）.cpp" />
-    <ClCompile Include="44 二进制枚举 （二进制的位运算）（洛谷 P10449 费解的开关）.cpp" />
-    <ClCompile Include="45 位运算（统计二进制中有多少个1的两种方法）.cpp" />
-    <ClCompile Include="46 前缀和 （洛谷 P1115 最大子段和）.cpp" />
-    <ClCompile Include="47 前缀和（优化版）（洛谷 P1115 最大子段和）.cpp" />
-    <ClCompile Include="48 一维前缀和及扩展（即库函数写法）.cpp" />
-    <ClCompile Include="49 二维前缀和.cpp" />
-    <ClCompile Include="5.c" />
-    <ClCompile Include="5.cpp" />
-    <ClCompile Include="50 前缀和（牛客【模板】二维前缀和）.cpp" />
-    <ClCompile Include="51.cpp" />
-    <ClCompile Include="52 优化的做法（比方向向量的做法效率更高） （智创未来杯 2025 武汉地区联合新生赛 B）.cpp" />
-    <ClCompile Include="53 差分（牛客【模板】差分）.cpp" />
-    <ClCompile Include="54 探寻前缀和与差分之间的关系.cpp" />
-    <ClCompile Include="55 差分（洛谷 P3406 海底高铁）.cpp" />
-    <ClCompile Include="56 差分 （优化版）（洛谷 P3406 海底高铁）.cpp" />
-    <ClCompile Include="57 探寻多次差分 .cpp" />
-    <ClCompile Include="59 二维差分 （牛客 【模板】二维差分）.cpp" />
-    <ClCompile Include="60 二维差分 （洛谷 P3397 地毯）.cpp" />
-    <ClCompile Include="61 双指针（滑动窗口） （洛谷（UVA）UVA11572 唯一的雪花 Unique Snowflakes）.cpp" />
-    <ClCompile Include="62 双指针（滑动窗口） （洛谷 P1638 逛画展）.cpp" />
-    <ClCompile Include="63 双指针（滑动窗口） （牛客 字符串）.cpp" />
-    <ClCompile Include="64 双指针（滑动窗口） （牛客 丢手绢）.cpp" />
-    <ClCompile Include="65 双指针（滑动窗口）（力扣（第 173 场双周赛）核心代码模式 （Q2. 不同元素和至少为 K 的最短子数组长度））.cpp" />
-    <ClCompile Include="66 二分算法 （力扣 核心代码模式 34. 在排序数组中查找元素的第一个和最后一个位置）.cpp" />
-    <ClCompile Include="67 双指针（滑动窗口） （牛客 BGN6 小红的字符串修改）.cpp" />
-    <ClCompile Include="68 模拟 （牛客 BGN9 元素方碑）.cpp" />
-    <ClCompile Include="69 枚举 （牛客 BGN10 九倍平方数）.cpp" />
-    <ClCompile Include="6（判断素数的较高效方法）.cpp" />
-    <ClCompile Include="7.cpp" />
-    <ClCompile Include="70 练习STL容器里面的二分函数.cpp" />
-    <ClCompile Include="71 二分算法（手动实现） （牛客 牛可乐和魔法封印）.cpp" />
-    <ClCompile Include="72 二分算法（使用二分函数） （牛客 牛可乐和魔法封印）.cpp" />
-    <ClCompile Include="73 二分算法 （洛谷 P1102 A-B 数对）.cpp" />
-    <ClCompile Include="74 二分算法 （洛谷 P1678 烦恼的高考志愿）.cpp" />
-    <ClCompile Include="75 二分答案 （洛谷 P2440 木材加工）.cpp" />
-    <ClCompile Include="76 二分答案（洛谷 P1873 COCI 2011 2012 5 EKO  砍树）.cpp" />
-    <ClCompile Include="77 二分答案（洛谷 P2678 [NOIP 2015 提高组] 跳石头）.cpp" />
-    <ClCompile Include="78 贪心（2025年武汉轻工大学算法校赛 C 申桑的小酒吧）.cpp" />
-    <ClCompile Include="79 模拟（这道题会超时） （智创未来杯 2025 武汉地区联合新生赛 C）.cpp" />
-    <ClCompile Include="8.cpp" />
-    <ClCompile Include="80 前缀和+二分（二分函数有普通版与优化后的版本）（优化后的做法） （智创未来杯 2025 武汉地区联合新生赛 C）.cpp" />
-    <ClCompile Include="81 贪心（洛谷 P10452 货仓选址）.cpp" />
-    <ClCompile Include="82 贪心 （洛谷 P1115 最大子段和）.cpp" />
-    <ClCompile Include="83 双指针（滑动窗口） （洛谷 P1115 最大子段和）.cpp" />
-    <ClCompile Include="84 模拟 （牛客 BGN19 小红的回文串）.cpp" />
-    <ClCompile Include="85 随机数小练习.cpp" />
-    <ClCompile Include="86 模拟 （蓝桥云课 第 34 场 蓝桥·算法入门赛·百校联赛 6. 刮刮乐卡【算法赛】）.cpp" />
-    <ClCompile Include="87二进制输出.cpp" />
-    <ClCompile Include="88 贪心 （洛谷 P1094 [NOIP 2007 普及组] 纪念品分组）.cpp" />
-    <ClCompile Include="89 贪心 （洛谷 P1056 [NOIP 2008 普及组] 排座椅）.cpp" />
-    <ClCompile Include="9.cpp" />
-    <ClCompile Include="58 实现二维差分.cpp" />
-    <ClCompile Include="90 纯二进制枚举 （超时）（牛客 矩阵消除游戏） .cpp" />
-    <ClCompile Include="91 二进制枚举+贪心优化 （牛客 矩阵消除游戏）.cpp" />
-    <ClCompile Include="95A Codeforces Round 1076 %28Div. 3%29 .cpp" />
-    <ClCompile Include="96B Codeforces Round 1076 %28Div. 3%29.cpp" />
-    <ClCompile Include="97.cpp" />
+    <ClCompile Include="1.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="10.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="100.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="92 模拟（·蓝桥云课 【17届蓝桥杯寒假刷题营】第1期DAY1 1. 任意年月日历输出）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="93 贪心（蓝桥云课【17届蓝桥杯寒假刷题营】第1期DAY1 3. 长度统计）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="94 dp %28蓝桥云课 第 34 场 蓝桥·算法挑战赛·百校联赛 3. 平台跳跃【算法赛】%29.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="11.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="12.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="13.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="14.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="15.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="17.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="16.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="18.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="19.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="2.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="20.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="21.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="22.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="23.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="24.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="25.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="26（排序）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="27.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="28 模拟（洛谷 P1067 [NOIP 2009 普及组] 多项式输出 ）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="29 模拟 （洛谷 P5731 【深基5.习6】蛇形方阵）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="3.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="3.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="30 模拟（洛谷 P1098 [NOIP 2007 提高组] 字符串的展开）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="32 模拟（牛客 BGN12 特殊的科学计数法）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="31%28高精度算法%29.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="33 枚举（洛谷 P1003 [NOIP 2011 提高组] 铺地毯）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="34 二进制枚举（力扣 78. 子集）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="35 二进制枚举 %28蓝桥云课 第 33 场 蓝桥·算法入门赛·百校联赛 3. 蓝小骑【算法赛】%29.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="36 枚举（洛谷 P2010 [NOIP 2016 普及组] 回文日期）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="37 递推dp（洛谷 P2327 [SCOI2005] 扫雷）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="38 二进制枚举 （二维数组）（洛谷 P10449 费解的开关）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="39  递归做法 （智创未来杯 2025 武汉地区联合新生赛 A）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4 %28蛇形方阵%29（gcc编译下的文件）.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="40 二进制枚举 （洛谷（UVA）UVA11464 Even Parity）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="41 二分（牛客 牛客周赛 Round 124 C 夜揽星河入梦）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="42 前缀和 （牛客 【模板】前缀和）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="43  方向向量做法 （智创未来杯 2025 武汉地区联合新生赛 B）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="44 二进制枚举 （二进制的位运算）（洛谷 P10449 费解的开关）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="45 位运算（统计二进制中有多少个1的两种方法）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="46 前缀和 （洛谷 P1115 最大子段和）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="47 前缀和（优化版）（洛谷 P1115 最大子段和）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="48 一维前缀和及扩展（即库函数写法）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="49 二维前缀和.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="5.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="5.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="50 前缀和（牛客【模板】二维前缀和）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="51.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="52 优化的做法（比方向向量的做法效率更高） （智创未来杯 2025 武汉地区联合新生赛 B）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="53 差分（牛客【模板】差分）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="54 探寻前缀和与差分之间的关系.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="55 差分（洛谷 P3406 海底高铁）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="56 差分 （优化版）（洛谷 P3406 海底高铁）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="57 探寻多次差分 .cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="59 二维差分 （牛客 【模板】二维差分）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="60 二维差分 （洛谷 P3397 地毯）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="61 双指针（滑动窗口） （洛谷（UVA）UVA11572 唯一的雪花 Unique Snowflakes）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="62 双指针（滑动窗口） （洛谷 P1638 逛画展）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="63 双指针（滑动窗口） （牛客 字符串）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="64 双指针（滑动窗口） （牛客 丢手绢）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="65 双指针（滑动窗口）（力扣（第 173 场双周赛）核心代码模式 （Q2. 不同元素和至少为 K 的最短子数组长度））.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="66 二分算法 （力扣 核心代码模式 34. 在排序数组中查找元素的第一个和最后一个位置）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="67 双指针（滑动窗口） （牛客 BGN6 小红的字符串修改）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="68 模拟 （牛客 BGN9 元素方碑）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="69 枚举 （牛客 BGN10 九倍平方数）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="6（判断素数的较高效方法）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="7.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="70 练习STL容器里面的二分函数.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="71 二分算法（手动实现） （牛客 牛可乐和魔法封印）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="72 二分算法（使用二分函数） （牛客 牛可乐和魔法封印）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="73 二分算法 （洛谷 P1102 A-B 数对）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="74 二分算法 （洛谷 P1678 烦恼的高考志愿）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="75 二分答案 （洛谷 P2440 木材加工）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="76 二分答案（洛谷 P1873 COCI 2011 2012 5 EKO  砍树）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="77 二分答案（洛谷 P2678 [NOIP 2015 提高组] 跳石头）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="78 贪心（2025年武汉轻工大学算法校赛 C 申桑的小酒吧）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="79 模拟（这道题会超时） （智创未来杯 2025 武汉地区联合新生赛 C）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="8.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="80 前缀和+二分（二分函数有普通版与优化后的版本）（优化后的做法） （智创未来杯 2025 武汉地区联合新生赛 C）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="81 贪心（洛谷 P10452 货仓选址）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="82 贪心 （洛谷 P1115 最大子段和）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="83 双指针（滑动窗口） （洛谷 P1115 最大子段和）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="84 模拟 （牛客 BGN19 小红的回文串）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="85 随机数小练习.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="86 模拟 （蓝桥云课 第 34 场 蓝桥·算法入门赛·百校联赛 6. 刮刮乐卡【算法赛】）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="87二进制输出.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="88 贪心 （洛谷 P1094 [NOIP 2007 普及组] 纪念品分组）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="89 贪心 （洛谷 P1056 [NOIP 2008 普及组] 排座椅）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="9.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="58 实现二维差分.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="90 纯二进制枚举 （超时）（牛客 矩阵消除游戏） .cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="91 二进制枚举+贪心优化 （牛客 矩阵消除游戏）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="95A Codeforces Round 1076 %28Div. 3%29 .cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="96B Codeforces Round 1076 %28Div. 3%29.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="97 贪心 %28推公式%29（洛谷 P1012 [NOIP 1998 提高组] 拼数）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="98 贪心 %28推公式%29（洛谷 P2878 [USACO07JAN] Protecting the Flowers S）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="99 贪心 （推公式） （洛谷 P1842 [USACO05NOV] 奶牛玩杂技）.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
