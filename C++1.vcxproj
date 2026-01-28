@@ -133,9 +133,10 @@
     <ClCompile Include="10.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="100.cpp">
+    <ClCompile Include="101.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="100  （最大公约数 【17届蓝桥杯寒假刷题营】第1期DAY1 2. 抗击虫群）.cpp" />
     <ClCompile Include="92 模拟（·蓝桥云课 【17届蓝桥杯寒假刷题营】第1期DAY1 1. 任意年月日历输出）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>

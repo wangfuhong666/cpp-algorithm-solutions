@@ -337,7 +337,10 @@
     <ClCompile Include="99 贪心 （推公式） （洛谷 P1842 [USACO05NOV] 奶牛玩杂技）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="100.cpp">
+    <ClCompile Include="101.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="100  （最大公约数 【17届蓝桥杯寒假刷题营】第1期DAY1 2. 抗击虫群）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
