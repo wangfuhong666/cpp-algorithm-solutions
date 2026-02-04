@@ -8,9 +8,9 @@
 #include<algorithm>
 #define MAX (long long)(1e6)
 using namespace std;
-插入排序() 1  2 3  5 4
-1.单数组版
-失败版
+//插入排序() 1  2 3  5 4
+//1.单数组版
+//失败版
 void sort_1_1_1(vector<int>&arr)
 {
 	
@@ -31,8 +31,8 @@ void sort_1_1_1(vector<int>&arr)
 			arr[p1] = tem;		
 	}
 }// 0 1 2 3 4 5 6 7 8
- 1 1 2 3 4 5 6
-j=0
+ //1 1 2 3 4 5 6
+//j=0
 void sort_1_1_2(vector<int>& arr) {
 	for (int i = 1; i < arr.size(); i++) {
 		int tem = arr[i];
@@ -44,7 +44,7 @@ void sort_1_1_2(vector<int>& arr) {
 		arr[j + 1] = tem;
 	}
 }
-2.双数组版
+//2.双数组版
 void sort_1_2(vector<int>& arr)
 {
 	vector<int>sort;
@@ -80,7 +80,7 @@ void sort_1_2(vector<int>& arr)
 	}
 	arr = sort;
 }
-选择排序
+//选择排序
 void sort_2(vector<int>& arr)
 {
 	for (int i = 0; i < arr.size()-1; i++)
@@ -96,7 +96,7 @@ void sort_2(vector<int>& arr)
 		}
 	}
 }
-冒号排序
+//冒号排序
 void sort_3_1(vector<int>& arr)
 {
 	for (int i = 0; i < arr.size()-1; i++)
@@ -112,7 +112,7 @@ void sort_3_1(vector<int>& arr)
 		}
 	}
 }
-优化后的冒号排序
+//优化后的冒号排序
 void sort_3_2(vector<int>& arr)
 {
 	for (int i = 0; i < arr.size() - 1; i++)
@@ -131,9 +131,9 @@ void sort_3_2(vector<int>& arr)
 		if (!ju)break;
 	}
 }
-堆排序（堆这种数据结构属于二叉树）
+//堆排序（堆这种数据结构属于二叉树）
 
-快速排序
+//快速排序
 int get_rand(vector<int>&arr,int left, int right) 
 {
 
@@ -154,7 +154,7 @@ void sort_4(vector<int>&arr,int left, int right)
 	sort_4(arr,left, l);
 	sort_4(arr,r, right);
 }
-归并排序
+//归并排序
 void sort_5(vector<int>& arr, int left, int right)
 {
 	vector<int>tmp(right+1);
@@ -202,8 +202,8 @@ int main()
 	vector<int>arr5 = arr1;
 	vector<int>arr6 = arr1;
 	vector<int>arr7 = arr1;
-	插入排序1
-	失败版
+	//插入排序1
+	//失败版
 	vector<int>arr10 = { 2,1,4,3,6,5 };
 	sort_1_1_1(arr10);
 	for (auto m : arr10)
@@ -216,7 +216,7 @@ int main()
 	{
 		cout << m << ' ';
 	}
-	插入排序2
+	//插入排序2
 	cout << endl;
 	sort_1_2(arr2);
 	for (auto m : arr2)
@@ -224,14 +224,14 @@ int main()
 		cout << m << ' ';
 	}
 	cout << endl;
-	选择排序
+	//选择排序
 	sort_2(arr3);
 	for (auto m : arr3)
 	{
 		cout << m << ' ';
 	}
 	cout << endl;
-	冒号排序	
+	//冒号排序	
 	sort_3_1(arr4);
 	
 	for (auto m : arr4)
