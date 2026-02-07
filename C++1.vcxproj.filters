@@ -406,7 +406,52 @@
     <ClCompile Include="122 牛客周赛 Round 128 E 小红的提拉米苏配方（easy）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="123.cpp">
+    <ClCompile Include="123 分治 （洛谷 P1908 逆序对）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="124 （判断二进制位数）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="131 2026牛客寒假算法基础集训营3  A 宙天.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="132 2026牛客寒假算法基础集训营3  B Random.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="133 2026牛客寒假算法基础集训营3 G スピカの天秤.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="134 2026牛客寒假算法基础集训营3 H Tic Tac DREAMIN%27.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="130 2026牛客寒假算法基础集训营2 I 01回文.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="125 2026牛客寒假算法基础集训营2 A 比赛安排（PDF题面存放于本题）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="126  2026牛客寒假算法基础集训营2 B NCPC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="127 2026牛客寒假算法基础集训营2 E 01矩阵.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="128 2026牛客寒假算法基础集训营2 F x y n .cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="129 2026牛客寒假算法基础集训营2 H 权值计算.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="135 分治（快速选择算法）（洛谷 P1923 【深基9.例4】求第 k 小的数）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="136 分治 （洛谷 P1115 最大子段和）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="137 DP （洛谷 P1115 最大子段和）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="138.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
