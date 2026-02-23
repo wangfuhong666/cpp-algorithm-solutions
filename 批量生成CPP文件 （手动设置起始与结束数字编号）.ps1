@@ -1,6 +1,6 @@
 # 设置起始和结束数字
-$N = 147
-$M = 200
+$N = 201
+$M = 400
 
 # 定义 C++ 代码模板 (关键修改：模板从第一行代码开始，不要空行)
 $template = "#define _CRT_SECURE_NO_WARNINGS

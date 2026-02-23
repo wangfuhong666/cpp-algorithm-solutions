@@ -29,7 +29,3 @@ int main()
 	else cout << l;
 	return 0;
 }
-
-
-
-P1873 COCI 2011 2012 5 EKO  ¿³Ê÷
