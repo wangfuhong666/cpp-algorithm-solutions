@@ -55,6 +55,7 @@ int main()
     cin >> n;
     //开始搜索
     dfs(1);
+    //输出答案
     cout << res;
     return 0;
 }

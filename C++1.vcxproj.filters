@@ -484,79 +484,58 @@
     <ClCompile Include="162DFS （洛谷 P1219 [USACO1.5] 八皇后 Checker Challenge）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="163.cpp">
+    <ClCompile Include="170DFS（洛谷 P1784 数独）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="164.cpp">
+    <ClCompile Include="171DFS（剪枝） （洛谷 P1025 [NOIP 2001 提高组] 数的划分）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="165.cpp">
+    <ClCompile Include="172DFS（剪枝） （洛谷 P10483 小猫爬山）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="166.cpp">
+    <ClCompile Include="173记忆化搜索 （洛谷 P1464 Function）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="167.cpp">
+    <ClCompile Include="174记忆化搜索 （洛谷 P5635 【CSGRound1】天下第一）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="168.cpp">
+    <ClCompile Include="175记忆化搜索（洛谷 P1434 [SHOI2002] 滑雪）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="169.cpp">
+    <ClCompile Include="176BFS（洛谷 P1443 马的遍历）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="170.cpp">
+    <ClCompile Include="177BFS（牛客 kotori和迷宫）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="171.cpp">
+    <ClCompile Include="178BFS（洛谷 P1588 [USACO07OPEN] Catch That Cow S）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="172.cpp">
+    <ClCompile Include="179BFS（洛谷 P1379 八数码难题）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="173.cpp">
+    <ClCompile Include="180多源BFS（牛客 矩阵距离）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="174.cpp">
+    <ClCompile Include="181二分答案+多源BFS（洛谷 P1902 刺杀大使）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="175.cpp">
+    <ClCompile Include="182 01BFS（洛谷 P4554 小明的游戏）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="176.cpp">
+    <ClCompile Include="183 01BFS（洛谷（CF） CF590C Three States）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="177.cpp">
+    <ClCompile Include="184Floodfill 问题（DFS）（洛谷 P1596 [USACO10OCT] Lake Counting S）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="178.cpp">
+    <ClCompile Include="185Floodfill 问题（BFS）（洛谷 P1596 [USACO10OCT] Lake Counting S）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="179.cpp">
+    <ClCompile Include="186Floodfill 问题（DFS）（洛谷 P1162 填涂颜色）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="180.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="181.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="182.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="183.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="184.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="185.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="186.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="187.cpp">
+    <ClCompile Include="187Floodfill 问题（BFS）（洛谷 P1162 填涂颜色）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="188.cpp">
@@ -638,6 +617,27 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="158 2026牛客寒假算法基础集训营6 G 小L的散步.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="163 Codeforces Round 1080 (Div. 3) A Sieve of Erato67henes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="164 Codeforces Round 1080 (Div. 3) B Heapify 1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="165 Codeforces Round 1080 (Div. 3) C Dice Roll Sequence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="166 Codeforces Round 1080 (Div. 3) D Absolute Cinema.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="167 Codeforces Round 1080 (Div. 3) E Idiot First Search.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="168 [LGR-271-Div.3] 洛谷基础赛 #31 &amp; 「WYZOI」中国新年跨年赛 2025→2026 A 「WYZOI R2」红包.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="169 [LGR-271-Div.3] 洛谷基础赛 #31 &amp; 「WYZOI」中国新年跨年赛 2025→2026 B 「WYZOI R2」春运.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

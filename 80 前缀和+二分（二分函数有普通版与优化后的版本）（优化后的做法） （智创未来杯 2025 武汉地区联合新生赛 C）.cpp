@@ -99,8 +99,6 @@ bool query(long long target_x, long long target_y, int L, int R, vector<Node>& n
 //0 1 1 2 5 5 
 //0 1 2 3 4 5
 // 0 0 0 0 0 0 0 0 0 0 0 0 00 0 0 0 0 0 00 0 0
- 5 5 5 5 55 5  55 5 5 5
- o(n)
 int main()
 {
 	ios::sync_with_stdio(false);
@@ -125,6 +123,7 @@ int main()
 		prex[i] += prex[i - 1];
 		prey[i] += prey[i - 1];
 	}
+
 	vector<Node> nodes(n + 1);
 	for (int i = 0; i <= n; i++) {
 		nodes[i] = { prex[i], prey[i], i };
@@ -135,8 +134,6 @@ int main()
 // 3.结构体数组排序（x,y,idx）O(N*logN)
 //
 //NlogN
- qlogn
- qn
 	while (q--)
 	{
 		bool judge = false;
@@ -160,7 +157,7 @@ int main()
 		}
 		if (judge)cout << "YES" << endl;
 		else cout << "NO" << endl;
-
 	}
 	return 0;
+
 }
