@@ -536,6 +536,7 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="187Floodfill 问题（BFS）（洛谷 P1162 填涂颜色）.cpp">
+<<<<<<< HEAD
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="188顺序存储树的方式（公式法）.cpp">
@@ -557,6 +558,8 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="194单调栈 （洛谷 P1901 发射站）.cpp">
+=======
+>>>>>>> 1e8cd75ec24a383e65c4f137ee27a1549175f02a
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="195单调栈 （洛谷 SP1805 HISTOGRA - Largest Rectangle in a Histogram）.cpp">
@@ -640,6 +643,7 @@
     <ClCompile Include="169 [LGR-271-Div.3] 洛谷基础赛 #31 &amp; 「WYZOI」中国新年跨年赛 2025→2026 B 「WYZOI R2」春运.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="201并查集+离散化 （洛谷 P1955 [NOI2015] 程序自动分析）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -1240,6 +1244,8 @@
     <ClCompile Include="212 牛客小白月赛129（减少一层遍历的做法） C 小橙的完美序列.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+=======
+>>>>>>> 1e8cd75ec24a383e65c4f137ee27a1549175f02a
   </ItemGroup>
   <!-- 若有头文件，添加此段绑定到“头文件”分组（示例） -->
   <!-- 若有资源文件，添加此段绑定到“资源文件”分组（示例） -->

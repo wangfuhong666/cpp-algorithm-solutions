@@ -398,8 +398,13 @@
     <ClCompile Include="187Floodfill 问题（BFS）（洛谷 P1162 填涂颜色）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="188顺序存储树的方式（公式法）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+=======
+    <ClCompile Include="188.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+>>>>>>> 1e8cd75ec24a383e65c4f137ee27a1549175f02a
     </ClCompile>
     <ClCompile Include="189顺序存储树的方式（静态链表存储,无val）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
