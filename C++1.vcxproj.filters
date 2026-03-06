@@ -1,29 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <!-- 筛选器分组定义（中文名称+VS原生GUID） -->
   <ItemGroup>
-    <!-- 头文件分组 -->
-    <Filter Include="头文件">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp</Extensions>
-    </Filter>
-    <!-- 源文件分组 -->
-    <Filter Include="源文件">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <!-- 资源文件分组 -->
     <Filter Include="资源文件">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+      <UniqueIdentifier>{148c63ba-09c9-4a0d-a89c-02f882be6727}</UniqueIdentifier>
     </Filter>
-    <!-- 杂项文件分组（按需添加） -->
-    <Filter Include="资源文件\杂项文件">
-      <UniqueIdentifier>{08E58209-49B8-4f09-8932-49907C27B719}</UniqueIdentifier>
-      <Extensions>txt;ini;log;bat;cmd;xml;json</Extensions>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{136e9614-c5a8-4ca6-8c5b-dc511478d510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{55f869d8-2ebd-46bd-9cb8-1da120d11658}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
-  <!-- 绑定项目中的.c/.cpp文件到“源文件”分组（按你项目实际文件列写） -->
   <ItemGroup>
     <ClCompile Include="1.c">
       <Filter>源文件</Filter>
@@ -43,10 +30,19 @@
     <ClCompile Include="3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="4 (蛇形方阵)（gcc编译下的文件）.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6（判断素数的较高效方法）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="7.cpp">
@@ -97,9 +93,6 @@
     <ClCompile Include="22.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="6（判断素数的较高效方法）.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="23.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -124,7 +117,7 @@
     <ClCompile Include="30 模拟（洛谷 P1098 [NOIP 2007 提高组] 字符串的展开）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="31%28高精度算法%29.cpp">
+    <ClCompile Include="31(高精度算法).cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="32 模拟（牛客 BGN12 特殊的科学计数法）.cpp">
@@ -136,7 +129,7 @@
     <ClCompile Include="34 二进制枚举（力扣 78. 子集）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="35 二进制枚举 %28蓝桥云课 第 33 场 蓝桥·算法入门赛·百校联赛 3. 蓝小骑【算法赛】%29.cpp">
+    <ClCompile Include="35 二进制枚举 (蓝桥云课 第 33 场 蓝桥·算法入门赛·百校联赛 3. 蓝小骑【算法赛】).cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="36 枚举（洛谷 P2010 [NOIP 2016 普及组] 回文日期）.cpp">
@@ -146,9 +139,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="38 二进制枚举 （二维数组）（洛谷 P10449 费解的开关）.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="4 %28蛇形方阵%29（gcc编译下的文件）.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="39  递归做法 （智创未来杯 2025 武汉地区联合新生赛 A）.cpp">
@@ -161,9 +151,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="42 前缀和 （牛客 【模板】前缀和）.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="5.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="43  方向向量做法 （智创未来杯 2025 武汉地区联合新生赛 B）.cpp">
@@ -298,6 +285,9 @@
     <ClCompile Include="86 模拟 （蓝桥云课 第 34 场 蓝桥·算法入门赛·百校联赛 6. 刮刮乐卡【算法赛】）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="86.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="87二进制输出.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -319,28 +309,28 @@
     <ClCompile Include="93 贪心（蓝桥云课【17届蓝桥杯寒假刷题营】第1期DAY1 3. 长度统计）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="94 dp %28蓝桥云课 第 34 场 蓝桥·算法挑战赛·百校联赛 3. 平台跳跃【算法赛】%29.cpp">
+    <ClCompile Include="94 dp (蓝桥云课 第 34 场 蓝桥·算法挑战赛·百校联赛 3. 平台跳跃【算法赛】).cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="95A Codeforces Round 1076 %28Div. 3%29 .cpp">
+    <ClCompile Include="95A Codeforces Round 1076 (Div. 3) .cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="96B Codeforces Round 1076 %28Div. 3%29.cpp">
+    <ClCompile Include="96B Codeforces Round 1076 (Div. 3).cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="97 贪心 %28推公式%29（洛谷 P1012 [NOIP 1998 提高组] 拼数）.cpp">
+    <ClCompile Include="97 贪心 (推公式)（洛谷 P1012 [NOIP 1998 提高组] 拼数）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="98 贪心 %28推公式%29（洛谷 P2878 [USACO07JAN] Protecting the Flowers S）.cpp">
+    <ClCompile Include="98 贪心 (推公式)（洛谷 P2878 [USACO07JAN] Protecting the Flowers S）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="99 贪心 （推公式） （洛谷 P1842 [USACO05NOV] 奶牛玩杂技）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="101 哈夫曼编码 %28牛客 哈夫曼编码%29.cpp">
+    <ClCompile Include="100  最大公约数（蓝桥云课 【17届蓝桥杯寒假刷题营】第1期DAY1 2. 抗击虫群）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="100  最大公约数（蓝桥云课 【17届蓝桥杯寒假刷题营】第1期DAY1 2. 抗击虫群）.cpp">
+    <ClCompile Include="101 哈夫曼编码 (牛客 哈夫曼编码).cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="102 哈夫曼编码（洛谷 P1090 [NOIP 2004 提高组] 合并果子）.cpp">
@@ -409,22 +399,10 @@
     <ClCompile Include="123 分治 （洛谷 P1908 逆序对）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="123.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="124 （判断二进制位数）.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="131 2026牛客寒假算法基础集训营3  A 宙天.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="132 2026牛客寒假算法基础集训营3  B Random.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="133 2026牛客寒假算法基础集训营3 G スピカの天秤.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="134 2026牛客寒假算法基础集训营3 H Tic Tac DREAMIN%27.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="130 2026牛客寒假算法基础集训营2 I 01回文.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="125 2026牛客寒假算法基础集训营2 A 比赛安排（PDF题面存放于本题）.cpp">
@@ -442,6 +420,21 @@
     <ClCompile Include="129 2026牛客寒假算法基础集训营2 H 权值计算.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="130 2026牛客寒假算法基础集训营2 I 01回文.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="131 2026牛客寒假算法基础集训营3  A 宙天.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="132 2026牛客寒假算法基础集训营3  B Random.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="133 2026牛客寒假算法基础集训营3 G スピカの天秤.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="134 2026牛客寒假算法基础集训营3 H Tic Tac DREAMIN%27.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="135 分治（快速选择算法）（洛谷 P1923 【深基9.例4】求第 k 小的数）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -457,10 +450,43 @@
     <ClCompile Include="139 计算几何（向量叉乘+运算符重载）（牛客 noob75 两直线交点）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="140 2026牛客寒假算法基础集训营4 A 本场比赛灵感来源于树状数组出题组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="141 2026牛客寒假算法基础集训营4 B 构造部落.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="142 2026牛客寒假算法基础集训营4 I 初华的扭蛋机.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="143 2026牛客寒假算法基础集训营4 C 墨提斯的排列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="144 2026牛客寒假算法基础集训营4 H 时不时使用玉米加农炮掩饰害羞的邻座艾莉同学.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="145 2026牛客寒假算法基础集训营4 F 爱音的01串构造.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="146 分治（递归） （洛谷 P1228 地毯填补问题）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="147（探究加两个数减法和位运算之间的大小关系）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="148 2026牛客寒假算法基础集训营5 B 智乃的瓷砖.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="149 2026牛客寒假算法基础集训营5 J 智乃的幻方.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="150 2026牛客寒假算法基础集训营5 G 智乃的箭头魔术.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="151 2026牛客寒假算法基础集训营5 D 智乃的果子.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="152 2026牛客寒假算法基础集训营5 E 智乃的最大子段和取模.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="153 DFS（洛谷 B3622 枚举子集（递归实现指数型枚举））153.cpp">
@@ -470,6 +496,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="155 DFS （洛谷 B3623 枚举排列（递归实现排列型枚举））.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="156 2026牛客寒假算法基础集训营6 K 小L的游戏1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="157 2026牛客寒假算法基础集训营6 H 小L的数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="158 2026牛客寒假算法基础集训营6 G 小L的散步.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="159DFS （洛谷 P1706 全排列问题）.cpp">
@@ -482,6 +517,27 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="162DFS （洛谷 P1219 [USACO1.5] 八皇后 Checker Challenge）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="163 Codeforces Round 1080 (Div. 3) A Sieve of Erato67henes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="164 Codeforces Round 1080 (Div. 3) B Heapify 1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="165 Codeforces Round 1080 (Div. 3) C Dice Roll Sequence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="166 Codeforces Round 1080 (Div. 3) D Absolute Cinema.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="167 Codeforces Round 1080 (Div. 3) E Idiot First Search.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="168 [LGR-271-Div.3] 洛谷基础赛 #31 &amp; 「WYZOI」中国新年跨年赛 2025→2026 A 「WYZOI R2」红包.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="169 [LGR-271-Div.3] 洛谷基础赛 #31 &amp; 「WYZOI」中国新年跨年赛 2025→2026 B 「WYZOI R2」春运.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="170DFS（洛谷 P1784 数独）.cpp">
@@ -536,7 +592,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="187Floodfill 问题（BFS）（洛谷 P1162 填涂颜色）.cpp">
-<<<<<<< HEAD
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="188顺序存储树的方式（公式法）.cpp">
@@ -558,8 +613,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="194单调栈 （洛谷 P1901 发射站）.cpp">
-=======
->>>>>>> 1e8cd75ec24a383e65c4f137ee27a1549175f02a
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="195单调栈 （洛谷 SP1805 HISTOGRA - Largest Rectangle in a Histogram）.cpp">
@@ -580,70 +633,6 @@
     <ClCompile Include="200并查集 （洛谷 P1596 [USACO10OCT] Lake Counting S）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="140 2026牛客寒假算法基础集训营4 A 本场比赛灵感来源于树状数组出题组.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="141 2026牛客寒假算法基础集训营4 B 构造部落.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="142 2026牛客寒假算法基础集训营4 I 初华的扭蛋机.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="143 2026牛客寒假算法基础集训营4 C 墨提斯的排列.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="144 2026牛客寒假算法基础集训营4 H 时不时使用玉米加农炮掩饰害羞的邻座艾莉同学.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="145 2026牛客寒假算法基础集训营4 F 爱音的01串构造.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="148 2026牛客寒假算法基础集训营5 B 智乃的瓷砖.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="149 2026牛客寒假算法基础集训营5 J 智乃的幻方.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="150 2026牛客寒假算法基础集训营5 G 智乃的箭头魔术.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="151 2026牛客寒假算法基础集训营5 D 智乃的果子.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="152 2026牛客寒假算法基础集训营5 E 智乃的最大子段和取模.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="156 2026牛客寒假算法基础集训营6 K 小L的游戏1.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="157 2026牛客寒假算法基础集训营6 H 小L的数组.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="158 2026牛客寒假算法基础集训营6 G 小L的散步.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="163 Codeforces Round 1080 (Div. 3) A Sieve of Erato67henes.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="164 Codeforces Round 1080 (Div. 3) B Heapify 1.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="165 Codeforces Round 1080 (Div. 3) C Dice Roll Sequence.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="166 Codeforces Round 1080 (Div. 3) D Absolute Cinema.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="167 Codeforces Round 1080 (Div. 3) E Idiot First Search.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="168 [LGR-271-Div.3] 洛谷基础赛 #31 &amp; 「WYZOI」中国新年跨年赛 2025→2026 A 「WYZOI R2」红包.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="169 [LGR-271-Div.3] 洛谷基础赛 #31 &amp; 「WYZOI」中国新年跨年赛 2025→2026 B 「WYZOI R2」春运.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-<<<<<<< HEAD
     <ClCompile Include="201并查集+离散化 （洛谷 P1955 [NOI2015] 程序自动分析）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -668,6 +657,18 @@
     <ClCompile Include="208 20260228每日一题（牛客 被打乱的异或和）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="209 牛客小白月赛129 A 小橘编译器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="210 牛客小白月赛129 B 小橙的好序列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="211 牛客小白月赛129 C 小橙的完美序列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="212 牛客小白月赛129（减少一层遍历的做法） C 小橙的完美序列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="213 智创未来杯 2025武汉地区高校联合新生赛 G 你好，世界.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -677,7 +678,7 @@
     <ClCompile Include="215 智创未来杯 2025武汉地区高校联合新生赛 H  哆啦 A 梦的神奇铜锣烧储存系统.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="216 （排序+双指针）第 178 场双周赛%28核心代码模式%29 Q3 使数组奇偶交替的最少操作 .cpp">
+    <ClCompile Include="216 （排序+双指针）第 178 场双周赛(核心代码模式) Q3 使数组奇偶交替的最少操作 .cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="217 并查集 （核心代码模式）（力扣 947. 移除最多的同行或同列石头）.cpp">
@@ -731,34 +732,31 @@
     <ClCompile Include="233 带权并查集 （蓝桥云课） （洛谷 P8779 [蓝桥杯 2022 省 A] 推导部分和）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="234.cpp">
+    <ClCompile Include="234DFS （洛谷 B3621 枚举元组）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="235.cpp">
+    <ClCompile Include="235DFS （洛谷 P2089 烤鸡）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="236.cpp">
+    <ClCompile Include="236DFS （洛谷（蓝桥云课） P15435 [蓝桥杯 2025 国 Python B] 免费披萨）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="237.cpp">
+    <ClCompile Include="237竞赛中打表样例1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="238.cpp">
+    <ClCompile Include="238 竞赛中打表样例2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="239.cpp">
+    <ClCompile Include="240 字符串哈希.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="240.cpp">
+    <ClCompile Include="241字符串哈希（洛谷 P3370 【模板】字符串哈希）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="241.cpp">
+    <ClCompile Include="242字符串哈希· （洛谷 P10468 兔子与兔子）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="242.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="243.cpp">
+    <ClCompile Include="243（DP） 智创未来杯 2025 武汉地区联合新生赛 A 昨昨昨日日日重重重现现现.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="244.cpp">
@@ -1232,27 +1230,8 @@
     <ClCompile Include="400.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="209 牛客小白月赛129 A 小橘编译器.cpp">
+    <ClCompile Include="239 20260304牛客每日一题（并查集）多米诺骨牌.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="210 牛客小白月赛129 B 小橙的好序列.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="211 牛客小白月赛129 C 小橙的完美序列.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="212 牛客小白月赛129（减少一层遍历的做法） C 小橙的完美序列.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-=======
->>>>>>> 1e8cd75ec24a383e65c4f137ee27a1549175f02a
-  </ItemGroup>
-  <!-- 若有头文件，添加此段绑定到“头文件”分组（示例） -->
-  <!-- 若有资源文件，添加此段绑定到“资源文件”分组（示例） -->
-  <!-- 若有杂项文件，添加此段绑定到“杂项文件”分组（示例） -->
-  <ItemGroup>
-    <!-- <None Include="xxx.txt">
-      <Filter>杂项文件</Filter>
-    </None> -->
   </ItemGroup>
 </Project>
