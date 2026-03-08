@@ -39,7 +39,7 @@ public:
     static int minMalwareSpread(vector<vector<int>>& graph, vector<int>& initial)
         {
 
-
+        //
         unordered_map<int, int>mp;
         for (auto num : initial)mp[num]++;
         int n = graph.size();

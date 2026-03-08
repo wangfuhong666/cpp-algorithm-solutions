@@ -511,16 +511,16 @@
     <ClCompile Include="243（DP） 智创未来杯 2025 武汉地区联合新生赛 A 昨昨昨日日日重重重现现现.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="244.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="245.cpp">
+    <ClCompile Include="244 20260306羊村每日一题 （CF Innopolis Open 2024. Final round A. Episodes）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="246.cpp">
+    <ClCompile Include="245第 16 届蓝桥杯C C++ B 组真题  6 水质检测.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="247.cpp">
+    <ClCompile Include="246 20260307牛客每日一题 Rinne Loves Edges.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="247 20260308力扣每日一题（核心代码模式） 1980. 找出不同的二进制字符串.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="248.cpp">
