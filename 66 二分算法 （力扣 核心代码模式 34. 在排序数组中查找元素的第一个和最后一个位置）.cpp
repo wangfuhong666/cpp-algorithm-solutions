@@ -18,7 +18,6 @@ vector<int> searchRange(vector<int>& nums, int target)
 	else ret.push_back(-1);
 	l = 0; r = nums.size() - 1; mid = 0;
 	while(l < r)
-
 	{
 		mid = (l + r+1) / 2;
 		if (nums[mid] <= target) l = mid;

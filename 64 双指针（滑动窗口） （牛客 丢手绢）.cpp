@@ -19,15 +19,9 @@ int main()
 	while (r < arr.size())
 	{
 		cur_sum += arr[r];
-		while (cur_sum > sum / 2)
-		{
-			cur_sum -= arr[l++];
-		}
+		while (cur_sum > sum / 2)cur_sum -= arr[l++];	
 		max_sum = max(max_sum, cur_sum);
-		if (max_sum == sum / 2)
-		{
-			break;
-		}
+		if (max_sum == sum / 2)break;	
 		r++;
 	}
 	cout << max_sum;

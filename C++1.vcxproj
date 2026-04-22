@@ -523,73 +523,73 @@
     <ClCompile Include="247 20260308力扣每日一题（核心代码模式） 1980. 找出不同的二进制字符串.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="248.cpp">
+    <ClCompile Include="248 牛客周赛 Round 134C Unique Number.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="249.cpp">
+    <ClCompile Include="249 牛客周赛 Round 134D  Balanced Array.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="25.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="250.cpp">
+    <ClCompile Include="250DP P10250 [GESP样题 六级] 下楼梯.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="251.cpp">
+    <ClCompile Include="251 20260310牛客每日一题 不是烤串故事.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="252.cpp">
+    <ClCompile Include="252 DP P1216 [IOI 1994  USACO1.5] 数字三角形 Number Triangles.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="253.cpp">
+    <ClCompile Include="253 （贡献法）20260313牛客每日一题 显生之宙.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="254.cpp">
+    <ClCompile Include="254 DP （洛谷 P1541 [NOIP 2010 提高组] 乌龟棋）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="255.cpp">
+    <ClCompile Include="255 20260317 力扣每日一题 1727. 重新排列后的最大子矩阵.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="256.cpp">
+    <ClCompile Include="256预处理组合数 （牛客20260319每日一题  小红的连续段）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="257.cpp">
+    <ClCompile Include="257 搜索 （牛客，20260324每日一题 太阳之华）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="258.cpp">
+    <ClCompile Include="258 路径DP（洛谷 P1002 [NOIP 2002 普及组] 过河卒）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="259.cpp">
+    <ClCompile Include="259 路径DP （洛谷 P1004 [NOIP 2000 提高组] 方格取数）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="260.cpp">
+    <ClCompile Include="260DP（洛谷 B3637 最长上升子序列）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="261.cpp">
+    <ClCompile Include="261贪心+二分 （牛客 【模板】最长上升子序列）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="262.cpp">
+    <ClCompile Include="262 DP（洛谷 P1091 [NOIP 2004 提高组] 合唱队形）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="263.cpp">
+    <ClCompile Include="263DP（LCM问题） （牛客 牛可乐和最长公共子序列 ）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="264.cpp">
+    <ClCompile Include="264DP （洛谷 P2758 编辑距离）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="265.cpp">
+    <ClCompile Include="265 DP（牛客 【模板】01背包）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="266.cpp">
+    <ClCompile Include="266 DP（洛谷 P1048 [NOIP 2005 普及组] 采药）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="267.cpp">
+    <ClCompile Include="267 DP （洛谷 P1164 小 A 点菜）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="268.cpp">
+    <ClCompile Include="268 2025 CCPC 全国邀请赛（南昌）暨第二届江西省赛  A. 扭蛋.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="269.cpp">
+    <ClCompile Include="269 DP （洛谷 P2946 [USACO09MAR] Cow Frisbee Team S）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="26（排序）.cpp">
@@ -598,100 +598,100 @@
     <ClCompile Include="27.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="270.cpp">
+    <ClCompile Include="270 DP（牛客 【模板】完全背包）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="271.cpp">
+    <ClCompile Include="271 DP（洛谷 P1616 疯狂的采药）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="272.cpp">
+    <ClCompile Include="272 DP （洛谷 P2918 [USACO08NOV] Buying Hay S）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="273.cpp">
+    <ClCompile Include="273 DP（洛谷 P5662 [CSP-J 2019] 纪念品）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="274.cpp">
+    <ClCompile Include="274 DP（“至少”的状态表示做法） （洛谷 P2918 [USACO08NOV] Buying Hay S）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="275.cpp">
+    <ClCompile Include="275 DP（牛客 多重背包）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="276.cpp">
+    <ClCompile Include="276 DP（二进制优化版）（20260315每日一题）（牛客 【模板】多重背包）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="277.cpp">
+    <ClCompile Include="277 Codeforces Round 1090 %28Div. 4%29A.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="278.cpp">
+    <ClCompile Include="278 Codeforces Round 1090 %28Div. 4%29 B.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="279.cpp">
+    <ClCompile Include="279 Codeforces Round 1090 (Div. 4) C The 67th Permutation Problem.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="28 模拟（洛谷 P1067 [NOIP 2009 普及组] 多项式输出 ）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="280.cpp">
+    <ClCompile Include="280 Codeforces Round 1090 %28Div. 4%29 D.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="281.cpp">
+    <ClCompile Include="281 Codeforces Round 1090 %28Div. 4%29 E.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="282.cpp">
+    <ClCompile Include="282 Codeforces Round 1090 (Div. 4) G The 67th Iteration of Counting is Fun .cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="283.cpp">
+    <ClCompile Include="283DP（力扣 bytedance-006. 夏季特惠）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="284.cpp">
+    <ClCompile Include="284  （一题多解）（力扣 494. 目标和）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="285.cpp">
+    <ClCompile Include="285 20260406力扣每日一题 874. 模拟行走机器人.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="286.cpp">
+    <ClCompile Include="286废稿.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="287.cpp">
+    <ClCompile Include="287数模练习1代码1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="288.cpp">
+    <ClCompile Include="288数模练习1代码2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="289.cpp">
+    <ClCompile Include="289数模练习1代码3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="29 模拟 （洛谷 P5731 【深基5.习6】蛇形方阵）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="290.cpp">
+    <ClCompile Include="290 DP（洛谷 P1064 [NOIP 2006 提高组] 金明的预算方案）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="291.cpp">
+    <ClCompile Include="291 第十七届蓝桥杯大赛软件赛省赛C C++ 大学B组 C 循环右移.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="292.cpp">
+    <ClCompile Include="292 第十七届蓝桥杯大赛软件赛省赛C C++ 大学B组 D 蓝桥竞技.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="293.cpp">
+    <ClCompile Include="293 第十七届蓝桥杯大赛软件赛省赛C C++ 大学B组 E LQ 聚合.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="294.cpp">
+    <ClCompile Include="294 第十七届蓝桥杯大赛软件赛省赛C C++ 大学B组 F 应急布线.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="295.cpp">
+    <ClCompile Include="295The 2026 ICPC China Shenzhen Invitational Contest L Critical Strike.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="296.cpp">
+    <ClCompile Include="296 手搓静态链表（还没写完）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="297.cpp">
+    <ClCompile Include="297 天梯赛训练题.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="298.cpp">
+    <ClCompile Include="298数模练习1代码4.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="299.cpp">
+    <ClCompile Include="299数模练习1代码5.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="3.c">
@@ -703,32 +703,33 @@
     <ClCompile Include="30 模拟（洛谷 P1098 [NOIP 2007 提高组] 字符串的展开）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="300.cpp">
+    <ClCompile Include="300数模练习1代码6.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+    </ClCompile>
+    <ClCompile Include="301 2026牛客寒假算法基础集训营1 D Sequence Coloring.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="301.cpp">
+    <ClCompile Include="302 KAJIMA CORPORATION CONTEST 2024 (AtCoder Beginner Contest 340) A Arithmetic Progression.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="302.cpp">
+    <ClCompile Include="303 KAJIMA CORPORATION CONTEST 2024 (AtCoder Beginner Contest 340) B Append.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="303.cpp">
+    <ClCompile Include="304 KAJIMA CORPORATION CONTEST 2024 (AtCoder Beginner Contest 340) C Divide and Divide.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="304.cpp">
+    <ClCompile Include="305 KAJIMA CORPORATION CONTEST 2024 (AtCoder Beginner Contest 340) D Super Takahashi Bros..cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="305.cpp">
+    <ClCompile Include="306堆做法（非负数组前k个最小的子序列累加和）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="306.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="307.cpp">
+    <ClCompile Include="307DP（洛谷 P1757 通天之分组背包）.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="308.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="309.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>

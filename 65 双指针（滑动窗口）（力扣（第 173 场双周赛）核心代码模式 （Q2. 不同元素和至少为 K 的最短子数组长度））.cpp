@@ -13,10 +13,7 @@ int minLength(vector<int>& nums, int k)
         int len = 0, minlen = 0x3f3f3f3f;
         while (r < n)
         {
-            if (mp[nums[r]] == 0)
-            {
-                sum += nums[r];
-            }
+            if (mp[nums[r]] == 0) sum += nums[r];       
             mp[nums[r]]++;
             while (sum >= k)
             {

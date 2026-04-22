@@ -41,14 +41,14 @@ void start(vector<vector<int>>& arr, int n, int x, int y)
 	}
 	start(arr, n, x + 1, y + 1);
 }
-用方向向量写的算法
+//用方向向量写的算法
 void direction(vector<vector<int>>& arr,int n)
 {
 	vector <int>dx = { 1,0,-1,0 };
 	vector<int>dy  = { 0,1,0,-1 };
 	int x = 0, y = 0;
 	int pos = 0;//(pos+1)%4
-				0 1 2 3
+				//0 1 2 3
 	for (int i = 1; i <= n * n; i++)
 	{
 		arr[y][x] = i;

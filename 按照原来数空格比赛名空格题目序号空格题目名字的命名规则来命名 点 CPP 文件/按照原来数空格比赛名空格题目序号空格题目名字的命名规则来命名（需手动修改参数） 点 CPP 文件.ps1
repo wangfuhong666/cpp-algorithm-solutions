@@ -1,26 +1,16 @@
 ﻿# ==========================================
 # 1. 配置区 (请根据实际情况修改)
 # ==========================================
-<<<<<<< HEAD
-$ContestName = "牛客小白月赛129"
+$ContestName = "KAJIMA CORPORATION CONTEST 2024 (AtCoder Beginner Contest 340)"
 $ProblemMap = @{
-    "A" = "小橘编译器"
-    "B" = "小橙的好序列"
-    "C" = "小橙的完美序列"
-    "D" = "小橙的幸运数 (easy)"
-    "E" = "小橙的幸运数 (hard)"
-    "F" = "小橙的异或和"
-    "G" = "小橙交换水果"
-=======
-$ContestName = "[LGR-271-Div.3] 洛谷基础赛 #31 & 「WYZOI」中国新年跨年赛 2025→2026"
-$ProblemMap = @{
-    "A" = "「WYZOI R2」红包"
-    "B" = "「WYZOI R2」春运"
-    "C" = "「WYZOI R2」烟花"
-    "D" = "「WYZOI R2」拜年"
->>>>>>> 1e8cd75ec24a383e65c4f137ee27a1549175f02a
+    "A" = "Arithmetic Progression"
+    "B" = "Append"
+    "C" = "Divide and Divide"
+    "D" = "Super Takahashi Bros."
+    "E" = "Mancala 2"
+    "F" = "S = 1"
+    "G" = "Leaf Color"
 }
-
 
 
 # ==========================================
@@ -62,4 +52,4 @@ foreach ($file in $files) {
 }
 
 Write-Host "`n所有.cpp文件处理完毕！" -ForegroundColor Magenta
-
+Read-Host "按回车键退出..."

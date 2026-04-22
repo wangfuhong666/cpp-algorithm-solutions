@@ -1,12 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include<iostream>
-#include<cstring>
-#include<cstdlib>
-#include<ctime>
-#include<cmath>
-#include<vector>
-#include <iomanip>
-#include<algorithm>
+#include<bits/stdc++.h>
 
 using namespace std;
 int main()

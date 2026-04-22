@@ -44,6 +44,6 @@ int main()
 		cout << ansy[i];
 		if (i < L - 1)cout << ' ';
 	}
-	
+	//pq<<><><<><>>>
 	return 0;
 }

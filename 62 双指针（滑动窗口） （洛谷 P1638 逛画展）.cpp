@@ -22,11 +22,7 @@ int main()
 		mp[arr[r]]++;
 		while (count == m)
 		{
-			while (mp[arr[l]] > 1)
-			{
-				mp[arr[l]]--;
-				l++;
-			}
+			while (mp[arr[l]] > 1)mp[arr[l++]]--;		
 			int len = r - l + 1;
 			if (len < minlen||(len == minlen&&l<anx))
 			{

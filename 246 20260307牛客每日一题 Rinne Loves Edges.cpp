@@ -19,7 +19,7 @@ void dfs(int x, int fa)
         dfs(y, x);
         dp[x] += min(dp[y], w);
     }
-    if (judge)dp[x] = 0x3f3f3f3f3f3f3f3f;
+    if (judge)dp[x] = LLONG_MAX;
 }
 int main()
 {

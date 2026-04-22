@@ -18,6 +18,7 @@ int main()
 	cout.tie(nullptr);
 	int n;
 	cin >> n;
+	//栈 堆                                                     
 	vector<node>arr(n);
 	long long sumv = 0LL;
 	for (int i = 0; i < n; i++)
@@ -28,7 +29,7 @@ int main()
 		arr[i] = { i,v,t };
 	}
 	sort(arr.begin(), arr.end(), cmp);
-	vector<long double>ans(n);
+	         
 	long long curv = sumv;
 	long long curt = 0LL;
 	long double res = 0.0;

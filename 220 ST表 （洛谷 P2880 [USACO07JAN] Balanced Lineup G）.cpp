@@ -40,6 +40,7 @@ int main()
         int len = b - a + 1;
         int tem = log2(len);
         cout << max(stmax[a][tem], stmax[b - (1 << tem)+1][tem]) - min(stmin[a][tem], stmin[b - (1 << tem)+1][tem]) << '\n';
+       
     }
     return 0;
 }

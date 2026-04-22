@@ -4,16 +4,16 @@
 #include<numeric>
 using namespace std;
 
-sum[i]=sum[i-1]  x  a[i]
-c=a+b
-c-a=b
- a=10111
- b=11100
- c=a^b=01011
- b=c^a成立
- 01011
- 10111
- 11100
+//sum[i]=sum[i-1]  x  a[i]
+//c=a+b
+//c-a=b
+// a=10111
+// b=11100
+// c=a^b=01011
+// b=c^a成立
+// 01011
+// 10111
+// 11100
 int par(int a, int b)
 {
 	return a ^ b;
