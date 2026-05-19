@@ -36,7 +36,9 @@ int main()
 		}
 		if (cnt > 0)judge = false;
 	}
+
 	if (judge)cout << "true";
 	else cout << "false";
+
 	return 0;
 }

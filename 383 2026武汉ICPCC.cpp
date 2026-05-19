@@ -2,9 +2,6 @@
 using namespace std;
 #define ll long long
 #define ull unsigned long long
-#define ump unordered_map
-#define ms multiset
-#define st set
 #define pii pair<int, int>
 #define pll pair<ll, ll>
 #define vi vector<int>
@@ -31,7 +28,38 @@ template <typename T> inline void read(T& x)
 
 void sol()
 {
-    
+    int n;
+    read(n);
+    int s, d, hp;
+    read(s);
+    read(d);
+    read(hp);
+    vp arr(n + 1);
+    rep(i, 1, n + 1)read(arr[i].fi), read(arr[i].se);
+    rep(i, 1, n + 1)
+    {
+        int a = arr[i].fi;
+        int k = arr[i].se;
+        if (min(a, 3 )* s >= hp)
+        {
+            cout << "Yes" << '\n';
+            cout << i;
+            return;
+        }
+        if ((k + d - 1) / d > min(5 - a, 3))
+        {
+            cout << "No"<<'\n';
+            return;
+        }
+        hp -= min(a, 3 - (k + d - 1) / d) * s;
+        if (hp <= 0)
+        {
+            cout << "Yes" << '\n';
+            cout << i;
+            return;
+        }
+    }
+    cout << "No" << '\n';
 }
 int main()
 {
@@ -39,7 +67,7 @@ int main()
     cin.tie(nullptr);
     cout.tie(nullptr);
     int t = 1;
-    read(t);
+    //read(t);
     while (t--)sol();
     return 0;
 }

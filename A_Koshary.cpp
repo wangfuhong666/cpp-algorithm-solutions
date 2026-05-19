@@ -1,4 +1,4 @@
-﻿#include<bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 #define ll long long
 #define ull unsigned long long
@@ -31,6 +31,11 @@ template <typename T> inline void read(T& x)
 
 void sol()
 {
+    ll x, y;
+    read(x), read(y);
+    if(x%2&&y%2)cout << "NO\n";
+    else cout << "YES\n";
+
     
 }
 int main()

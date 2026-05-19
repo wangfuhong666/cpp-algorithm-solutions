@@ -1,0 +1,30 @@
+﻿#define _CRT_SECURE_NO_WARNINGS
+#include<bits/stdc++.h>
+using namespace std;
+using ll = long long;
+ll gcd(ll a, ll b)
+{
+    while (b)
+    {
+        a %= b;
+        swap(a, b);
+    }
+    return a;
+}
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    string a;
+    ll b;
+    cin >> a >> b;
+    ll res = 0LL;
+    for (auto e : a)
+    {
+        res = res * 10 + e - '0';
+        res %= b;
+    }
+    cout << gcd(res, b);
+    return 0;
+}
