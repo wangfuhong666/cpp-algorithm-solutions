@@ -6,7 +6,11 @@ using pii = pair<int,int>;
 using pll = pair<ll,ll>;
 void sol()
 {
-
+    ll n, m;
+    cin >> n >> m;
+    ll k = min(n, m + 1);
+    ll ans = k * (k - 1) / 2 - m;
+    cout << ans << '\n';
 }
 int main()
 {
@@ -14,7 +18,7 @@ int main()
     cin.tie(nullptr);
     cout.tie(nullptr);
     int t=1;
-    //cin>>t;
+    cin>>t;
     while(t--)sol();
     return 0;
 }

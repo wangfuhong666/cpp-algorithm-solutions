@@ -4,27 +4,20 @@ using namespace std;
 using ll = long long;
 using pii = pair<int,int>;
 using pll = pair<ll,ll>;
-const ll mod=1e9+7;
 void sol()
 {
-
-    for(int x=0;x<3;x++)
+    string s;
+    cin>>s;
+    int n=s.size();
+    int l=0,r=0;
+    int res=0;
+    while(r<n)
     {
-        for(int y=0;y<=10;y++)
-        {
-            x%=3;
-            int r=0;
-            if(x==1)r++;
-            if(x==2)r--;
-            string s="WWL";
-            int z=(y+x+r)%3;
-            cout<<s[z]<<' ';
-            
-        }
-        cout<<'\n';
+        if(s[r]=='0')l=r+1;
+        else res=max(res,r-l+1);
+        r++;
     }
-
-
+    cout<<res;
 }
 int main()
 {
