@@ -12,7 +12,7 @@
       "environment": [],
       "externalConsole": true,
       "MIMode": "gdb",
-      "miDebuggerPath": "D:/minGW64/bin/gdb.exe",
+      "miDebuggerPath": "D:/w64devkit-x64/w64devkit/bin/gdb.exe",
       "preLaunchTask": "build current C++ file",
       "setupCommands": [
         {
@@ -29,10 +29,10 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Visual Studio Code文件/C++算法竞赛/369",
-      "program": "d:/Visual Studio Code文件/C++算法竞赛/369/build/Debug/outDebug",
+      "cwd": "d:/Visual Studio Code文件/C++算法竞赛",
+      "program": "d:/Visual Studio Code文件/C++算法竞赛/build/Debug/outDebug",
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "miDebuggerPath": "D:/w64devkit-x64/w64devkit/bin/gdb.exe",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",

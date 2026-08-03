@@ -1,13 +1,19 @@
-﻿{
+{
   "configurations": [
     {
       "name": "windows-gcc-x64",
       "includePath": [
-        "${workspaceFolder}/**"
+        "${workspaceFolder}"
       ],
-      "compilerPath": "D:/minGW64/bin/g++.exe",
-      "cStandard": "c17",
-      "cppStandard": "c++17",
+      "browse": {
+        "path": [
+          "${workspaceFolder}"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "compilerPath": "D:/w64devkit-x64/w64devkit/bin/g++.exe",
+      "cStandard": "${default}",
+      "cppStandard": "c++20",
       "intelliSenseMode": "windows-gcc-x64"
     }
   ],
