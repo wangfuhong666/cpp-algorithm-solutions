@@ -3,7 +3,7 @@
   "tasks": [
     {
       "label": "build current C++ file",
-      "type": "shell",
+      "type": "process",
       "command": "D:\\w64devkit-x64\\w64devkit\\bin\\g++.exe",
       "args": [
         "-std=c++20",
@@ -13,20 +13,16 @@
         "-g",
         "${file}",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}.exe"
+        "D:\\w64devkit-x64\\w64devkit\\bin\\vscode-current-cpp.exe"
       ],
       "options": {
         "cwd": "${fileDirname}"
-      },
-      "group": {
-        "kind": "build",
-        "isDefault": true
       },
       "problemMatcher": ["$gcc"]
     },
     {
       "label": "build current C file",
-      "type": "shell",
+      "type": "process",
       "command": "D:\\w64devkit-x64\\w64devkit\\bin\\gcc.exe",
       "args": [
         "-std=c17",
@@ -36,7 +32,7 @@
         "-g",
         "${file}",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}.exe"
+        "D:\\w64devkit-x64\\w64devkit\\bin\\vscode-current-c.exe"
       ],
       "options": {
         "cwd": "${fileDirname}"

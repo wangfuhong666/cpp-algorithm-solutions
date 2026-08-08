@@ -6,7 +6,17 @@ using pii = pair<int,int>;
 using pll = pair<ll,ll>;
 void sol()
 {
-
+    int n;
+    cin>>n;
+    unordered_set<int>st;
+    while(n--)
+    {
+        int x;
+        cin>>x;
+        st.insert(x);
+    }
+    if((int)st.size()<=3)cout<<"YES\n";
+    else cout<<"NO\n";
 }
 int main()
 {

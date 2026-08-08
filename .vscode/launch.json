@@ -2,13 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug current file",
+      "name": "Debug current C++ file",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+            "program": "D:/w64devkit-x64/w64devkit/bin/vscode-current-cpp.exe",
       "args": [],
       "stopAtEntry": false,
-      "cwd": "${fileDirname}",
+      "cwd": "D:\\w64devkit-x64\\w64devkit\\bin",
       "environment": [],
       "externalConsole": true,
       "MIMode": "gdb",
@@ -23,16 +23,17 @@
       ]
     },
     {
-      "name": "C/C++ Runner: Debug Session",
+      "name": "Debug current C file",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Visual Studio Code文件/C++算法竞赛",
-      "program": "d:/Visual Studio Code文件/C++算法竞赛/build/Debug/outDebug",
+      "cwd": "D:\\w64devkit-x64\\w64devkit\\bin",
+            "program": "D:/w64devkit-x64/w64devkit/bin/vscode-current-c.exe",
       "MIMode": "gdb",
       "miDebuggerPath": "D:/w64devkit-x64/w64devkit/bin/gdb.exe",
+      "preLaunchTask": "build current C file",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
