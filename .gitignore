@@ -40,3 +40,25 @@ Win32/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/c_cpp_properties.json
+
+# IDE / 工具本地状态
+.cph/
+.nowcoderac/
+.workbuddy/
+
+# 编译与调试产物
+*.gch
+*.dSYM/
+a.out
+main
+tempCodeRunnerFile.cpp
+
+# 题目调试用的输入输出数据（体积大、非源码）
+*.txt
+
+# 赛事题面存档 / 临时目录
+136164/
+Studio
+
+# 本地环境修复脚本
+*.ps1

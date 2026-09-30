@@ -8,6 +8,8 @@ const int N = 30;
 int n;
 int adj[N][N];
 ll dp[(1<<20)][N];
+//来到last这个点，以前走过的点的集合为mask，
+//返回从该点开始回到起点1的最小权值和
 ll dfs(int mask, int last)
 {
     if(dp[mask][last])return dp[mask][last];
